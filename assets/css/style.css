@@ -66,7 +66,7 @@ p {
 }
 
 #showcase h1 {
-	padding-top: 100px;
+	padding-top: 60px;
 	padding-bottom: 0;
 }
 
@@ -116,8 +116,6 @@ p {
 }
 
 #section-d .box{
-	/*display: block;*/
-	/*clear: both;*/
 	padding: 2em;
 	color: white;
 }
@@ -127,8 +125,9 @@ p {
 }
 
 form {
-  width: 50%;
+  width: 70%;
   margin: 10% auto;
+	margin-bottom: 20px;
   min-width: 9rem;
 }
 
@@ -140,31 +139,12 @@ input, textarea {
   margin: 0.5rem 0;
   padding: 0.5rem 1rem;
   border-radius: 0.3rem;
-  background: darken(#f9f9f9, 10%);
-  color: darken(#f9f9f9, 50%);
-
-  &[type=submit] {
-    background: $green;
-    color: #fff;
-    width: auto;
-    float: right;
-  }
-
-  &::placeholder {
-    color: darken(#f9f9f9, 50%);
-  }
-
-  &.error {
-    background: $red;
-    color: #fff;
-    &::placeholder {
-      color: darken($red, 60%);
-    }
-  }
 }
+
 textarea {
   height: 10rem;
 }
+
 .captcha {
   float:left;
   input {
